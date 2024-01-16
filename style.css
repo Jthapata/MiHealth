@@ -1,0 +1,29 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+header h1 {
+    padding-left: 2rem;
+}
+header ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+.headerlinks {
+    margin: 1rem;
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+#maincontent {
+    background-color: rgb(221, 221, 221);
+}
