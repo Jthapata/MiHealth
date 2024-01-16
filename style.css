@@ -34,8 +34,15 @@ a {
 #maincontent {
     background-color: rgb(221, 221, 221);
     display: flex;
+    align-items: center;
 }
 img {
-    width: 200px;
-    height: 300px;
+    width: 250px;
+    height: 350px;
+}
+#leftcontent {
+    margin: 2rem;
+}
+#rightcontent {
+    display: flex;
 }
