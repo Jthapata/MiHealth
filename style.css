@@ -3,6 +3,13 @@
     margin: 0;
     box-sizing: border-box;
 }
+body {
+    background-image: url("images/background.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
 header {
     display: flex;
     justify-content: space-between;
@@ -26,4 +33,9 @@ a {
 }
 #maincontent {
     background-color: rgb(221, 221, 221);
+    display: flex;
+}
+img {
+    width: 250px;
+    height: 400px;
 }
