@@ -2,8 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Open Sans', sans-serif, 'Times New Roman';
-    font-weight: 200;
+    font-family:Arial, Helvetica, sans-serif
 }
 body {
     background-image: url("images/background.png");
@@ -44,14 +43,15 @@ a {
 }
 img {
     width: 200px;
-    height: 275px;
+    height: 300px;
     margin: .25rem;
 }
 #leftcontent {
     margin: 2rem;
 }
-p {
+#lorem {
     padding-top: 1rem;
+    font-weight: lighter;
 }
 button {
     text-decoration: none;
@@ -66,21 +66,20 @@ button {
     position: relative;
     display: inline-block;
 }
-.image-container img {
-    display: block;
-}
 .overlay-text {
     position: absolute;
-    bottom: 0%;
-    right: 0%;
+    bottom: 0;
+    right: 0;
     transform: translate(-50%, -50%);
     text-align: end;
 }
 .description {
     background-color: white;
     padding: .5rem;
+    font-weight: 700;
 }
 .meal {
     background-color: rgb(46, 189, 46);
     padding: .5rem;
+    font-weight: 700;
 }
