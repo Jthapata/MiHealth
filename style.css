@@ -19,6 +19,13 @@ header {
 }
 header h1 {
     padding-left: 2rem;
+    font-weight: 800;
+}
+#red-header {
+    color: maroon;
+}
+#green-header {
+    color: rgb(55, 176, 55);
 }
 header ul {
     display: flex;
@@ -36,10 +43,12 @@ a {
     background-color: rgb(221, 221, 221);
     display: flex;
     align-items: center;
+    padding: 2rem
 }
 #maincontent h1 {
-    font-weight: 00;
+    font-weight: 800;
     font-size: 60px;
+    line-height: 3.5rem;
 }
 img {
     width: 200px;
@@ -58,13 +67,13 @@ button {
     border: none;
     background-color: rgb(221, 221, 221);
     padding-top: 1rem;
+    font-weight: 600;
 }
 #rightcontent {
     display: flex;
 }
 .image-container {
     position: relative;
-    display: inline-block;
 }
 .overlay-text {
     position: absolute;
