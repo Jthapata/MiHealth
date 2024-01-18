@@ -6,10 +6,7 @@
 }
 body {
     background-image: url("images/background.png");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
+    background-repeat: repeat;
 }
 header {
     display: flex;
@@ -22,10 +19,10 @@ header h1 {
     font-weight: 800;
 }
 #red-header {
-    color: maroon;
+    color: rgb(200, 39, 39);
 }
 #green-header {
-    color: rgb(55, 176, 55);
+    color: rgb(88, 189, 88);
 }
 header ul {
     display: flex;
@@ -53,10 +50,10 @@ a {
 img {
     width: 200px;
     height: 300px;
-    margin: .25rem;
 }
 #leftcontent {
     margin: 2rem;
+    width: 35%;
 }
 #lorem {
     padding-top: 1rem;
@@ -74,12 +71,12 @@ button {
 }
 .image-container {
     position: relative;
+    padding: .5rem;
 }
 .overlay-text {
     position: absolute;
     bottom: 0;
     right: 0;
-    transform: translate(-50%, -50%);
     text-align: end;
 }
 .description {
