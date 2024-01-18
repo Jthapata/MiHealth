@@ -39,6 +39,7 @@ a {
 #maincontent {
     background-color: rgb(221, 221, 221);
     display: flex;
+    justify-content: space-between;
     align-items: center;
     padding: 2rem
 }
@@ -68,6 +69,7 @@ button {
 }
 #rightcontent {
     display: flex;
+    position: relative;
 }
 .image-container {
     position: relative;
@@ -75,8 +77,8 @@ button {
 }
 .overlay-text {
     position: absolute;
-    bottom: 0;
-    right: 0;
+    bottom: .75rem;
+    right: .5rem;
     text-align: end;
 }
 .description {
